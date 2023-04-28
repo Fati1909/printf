@@ -39,11 +39,7 @@ typedef struct specifier
 int _puts(char *str);
 int _putchar(int c);
 
-int print_char(va_list ap, params_t *params);
-int print_int(va_list ap, params_t *params);
-int print_string(va_list ap, params_t *params);
-int print_percent(va_list ap, params_t *params);
-int print_S(va_list ap, params_t *params);
+int _printf(const char *format, ...);
 
 int print_hex(va_list ap, params_t *params);
 int print_HEX(va_list ap, params_t *params);
