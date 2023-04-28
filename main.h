@@ -40,6 +40,8 @@ int _puts(char *str);
 int _putchar(int c);
 
 int _printf(const char *format, ...);
+int int_to_str(int num, char *str, int base);
+int _printfInts(const char *format, ... );
 
 int print_hex(va_list ap, params_t *params);
 int print_HEX(va_list ap, params_t *params);
